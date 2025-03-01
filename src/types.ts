@@ -1,4 +1,4 @@
-export interface IconWidgetOptions {
+export interface IconifyWidgetOptions {
   collection?: string;
   filter?: RegExp;
 }

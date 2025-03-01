@@ -1,8 +1,8 @@
 import controlComponent from "./IconifyControl";
 import previewComponent from "./IconifyPreview";
-import { IconWidgetOptions } from "./types";
+import { IconifyWidgetOptions } from "./types";
 
-function Widget(opts: IconWidgetOptions = {}) {
+function Widget(opts: IconifyWidgetOptions = {}) {
   return {
     name: "icon",
     controlComponent,
@@ -11,10 +11,10 @@ function Widget(opts: IconWidgetOptions = {}) {
   };
 }
 
-export const DecapCmsWidgetIcon = {
+export const WidgetIconify = {
   Widget,
   controlComponent,
   previewComponent,
 };
 
-export default DecapCmsWidgetIcon;
+export default WidgetIconify;

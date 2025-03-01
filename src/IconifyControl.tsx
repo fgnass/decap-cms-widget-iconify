@@ -1,7 +1,7 @@
 import React from "react";
 import { Icon } from "@iconify/react";
 import { CmsWidgetControlProps } from "decap-cms-core";
-import { IconWidgetOptions } from "./types";
+import { IconifyWidgetOptions } from "./types";
 
 export default class IconifyControl extends React.Component<CmsWidgetControlProps> {
   state = {
@@ -16,7 +16,7 @@ export default class IconifyControl extends React.Component<CmsWidgetControlProp
     }
 
     const { collection = "mdi", filter } = this.props
-      .widget as IconWidgetOptions;
+      .widget as IconifyWidgetOptions;
 
     try {
       const res = await fetch(
