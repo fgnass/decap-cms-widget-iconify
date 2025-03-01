@@ -2,6 +2,15 @@
 
 A custom widget for [Decap CMS](https://decapcms.org/) (formerly Netlify CMS) that allows you to search and select icons from [Iconify](https://iconify.design/) collections.
 
+## Features
+
+- Search for icons from Iconify collections
+- Preview selected icons
+- Filter icons by collection or pattern
+- Seamless integration with Decap CMS
+
+<img src="screenshot.png" alt="Screenshot" width="225" height="284">
+
 ## Installation
 
 ```bash
@@ -47,13 +56,6 @@ fields:
     name: 'icon'
     widget: 'icon'
 ```
-
-## Features
-
-- Search for icons from Iconify collections
-- Preview selected icons
-- Filter icons by collection or pattern
-- Seamless integration with Decap CMS
 
 ## License
 
