@@ -14,10 +14,10 @@ yarn add decap-cms-widget-iconify
 
 ```js
 import CMS from 'decap-cms-app';
-import { DecapCmsWidgetIcon } from 'decap-cms-widget-iconify';
+import { WidgetIconify } from 'decap-cms-widget-iconify';
 
 // Register the widget
-CMS.registerWidget(DecapCmsWidgetIcon.Widget());
+CMS.registerWidget(WidgetIconify.Widget());
 ```
 
 ### Configuration
@@ -26,7 +26,7 @@ You can configure the widget with the following options:
 
 ```js
 CMS.registerWidget(
-  DecapCmsWidgetIcon.Widget({
+  WidgetIconify.Widget({
     // The Iconify collection to use (default: 'mdi')
     collection: "material-symbols-light",
     
@@ -54,16 +54,6 @@ fields:
 - Preview selected icons
 - Filter icons by collection or pattern
 - Seamless integration with Decap CMS
-
-## Development
-
-```bash
-# Install dependencies
-npm install
-
-# Build the widget
-npm run build
-```
 
 ## License
 
